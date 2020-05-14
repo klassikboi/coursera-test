@@ -1,0 +1,60 @@
+.navbar-brand{
+    font-size:2em;
+}
+.navbar {
+    background-color:aliceblue;
+}
+.navbar-collapse{
+    background-color:beige;
+}
+h2{
+    font-size:1.7em;
+    color:cadetblue;
+    text-shadow:1px 1px 1px #808080;
+    margin-bottom:30px;
+}
+#heading{
+    font-size:1.4em;
+   /* color:blueviolet;
+    text-shadow:0.5px 0.5px 0.5px antiquewhite;
+    background-color:#ef3a3a; */
+    padding:5px; 
+}
+.content {
+    margin-bottom: 20px;
+    padding: 2vw 5vw 5vw 5vw;
+    background-color: cornsilk;
+    box-shadow:2px 2px 2px #808080;
+   /* float:left; */
+}
+#description{
+    margin-top:2vw;
+    font-size:1.5vw;
+    letter-spacing:0.1em;
+}
+@media only screen and (max-width:991px) {
+    #description{
+        font-size:2vw;
+        letter-spacing:0.05em;
+    }
+}
+@media only screen and (max-width:500px) {
+    #description {
+        font-size:3vw;
+    }
+}
+hr{
+    margin:0px;
+    padding:0px;
+}
+.navbar-toggle{
+    margin-top:25px;
+}
+/*
+.egg{
+    margin:auto 1vw auto 1vw;
+}
+.full{
+    width:80%;
+}
+    */
